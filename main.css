@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.base {
+    height:80vh;
+    width: 250px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin:20px;
+}
+
+#blockOne {
+    width: 80%;
+    height: 40px;
+    background-color: black;
+}
+
+#blockTwo {
+    width: 60%;
+    height: 40px;
+    background-color: crimson;
+}
+
+#blockThree {
+    width: 40%;
+    height: 40px;
+    background-color: darkmagenta;
+}
+
+#blockFour {
+    width: 20%;
+    height: 40px;
+    background-color:blue;
+}
+
+
